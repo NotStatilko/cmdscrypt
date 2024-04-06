@@ -1,12 +1,9 @@
-**CMDScrypt** is a very simple command line analogue to [**uiScrypt**](https://github.com/NotStatilko/uiScrypt).
+**CMDScrypt** is a very simple **CLI** analogue to [**uiScrypt**](https://github.com/NotStatilko/uiScrypt).
 
-You can install it from PIP:
-```
-pip install cmdscrypt
-cmdscrypt # Run CMDScrypt
-```
-You can also specify scrypt arguments
-```
-cmdscrypt N r p dklen # Template
-cmdscrypt 1048576 8 1 32 # By default
+![Screenshot_2024-04-07_00-45-04](https://github.com/NotStatilko/cmdscrypt/assets/43419673/ef632db8-cec0-4074-b3d5-8a029f3a3f56)
+
+You can install it with **PIP**:
+```bash
+pip install cmdscrypt # Install from PyPI
+cmdscrypt tui # Run CMDScrypt in TUI mode
 ```
